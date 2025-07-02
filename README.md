@@ -21,7 +21,7 @@ Our research focuses on developing machine learning models to predict EPSS score
 ```
 ├── code/
 │   ├── 31xxx/                    # CVE JSON files (160+ records)
-│   ├── Mubaraq.ipynb            # Main analysis and ML modeling
+│   ├── EPSS.ipynb               # Main analysis and ML modeling
 │   ├── Init.ipynb               # Environment setup
 │   ├── cve_data_with_epss.csv   # Main dataset
 │   ├── extreme_cases_analysis.csv # Prediction analysis
@@ -54,7 +54,7 @@ jupyter notebook
 
 ### Usage
 1. Open `code/Init.ipynb` to set up the environment
-2. Execute `code/Mubaraq.ipynb` for the main analysis
+2. Execute `code/EPSS.ipynb` for the main analysis
 
 ## 📈 Key Findings
 
