@@ -43,8 +43,8 @@ Our research focuses on developing machine learning models to predict EPSS score
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cve-risk-assessment-thesis.git
-cd cve-risk-assessment-thesis
+git clone https://github.com/mubaraqx/EPSS_challenge25.git
+cd EPSS_challenge25
 
 # Install dependencies
 pip install -r code-5/requirements.txt
