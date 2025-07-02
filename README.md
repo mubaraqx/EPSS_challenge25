@@ -19,9 +19,8 @@ Our research focuses on developing machine learning models to predict EPSS score
 ## 🗂️ Repository Structure
 
 ```
-├── code-5/
+├── code/
 │   ├── 31xxx/                    # CVE JSON files (160+ records)
-│   ├── EPSS.ipynb               # EPSS data processing
 │   ├── Mubaraq.ipynb            # Main analysis and ML modeling
 │   ├── Init.ipynb               # Environment setup
 │   ├── cve_data_with_epss.csv   # Main dataset
@@ -47,16 +46,15 @@ git clone https://github.com/mubaraqx/EPSS_challenge25.git
 cd EPSS_challenge25
 
 # Install dependencies
-pip install -r code-5/requirements.txt
+pip install -r code/requirements.txt
 
 # Start Jupyter
 jupyter notebook
 ```
 
 ### Usage
-1. Open `code-5/Init.ipynb` to set up the environment
-2. Run `code-5/EPSS.ipynb` to process EPSS data
-3. Execute `code-5/Mubaraq.ipynb` for the main analysis
+1. Open `code/Init.ipynb` to set up the environment
+2. Execute `code/Mubaraq.ipynb` for the main analysis
 
 ## 📈 Key Findings
 
