@@ -75,9 +75,42 @@ jupyter notebook
 
 ## 📚 Thesis Reference
 
-This code accompanies our thesis: **[Thesis Title]** by [Your Names]
+This code accompanies our thesis: **[Open-Source Vulnerability Risk Assessment: A Machine Learning Approach Using Public Data]** by [Mubaraq M. Fuseini], [Almustafa Almuthana], [Abdullah Abdelkhalik]
 
-**Abstract**: [Brief abstract of your thesis]
+**Abstract**: [The Exploit Prediction Scoring System (EPSS) has become the indus-
+try standard for vulnerability risk assessment, yet its proprietary
+nature creates significant barriers to transparency and independent
+validation. This thesis challenges the assumption that effective vul-
+nerability exploitation prediction requires proprietary datasets by
+developing a fully transparent system using only publicly available
+data sources.
+We built a vulnerability exploitation prediction system that lever-
+ages ExploitDB[1] as its primary dataset, supplemented by NVD[2]
+and CISA[3] data. Our approach combines manual data collection
+insights with automated machine learning techniques, implement-
+ing advanced feature engineering from vulnerability descriptions,
+temporal analysis, and vendor information. The system employs
+multiple ML models (XGBoost, Random Forest, Neural Networks)
+with comprehensive validation procedures.
+Our results demonstrate that public data sources can provide mean-
+ingful capabilities for vulnerability prediction. The Random Forest
+model achieved an RMSE of 0.199 and an R2 score of 0.137, repre-
+senting substantial improvement over baseline predictions. While
+we processed 503 CVEs through manual collection, we identified po-
+tential for 90,000+ CVEs through automated pipelines. Key insights
+include the critical importance of automation in data collection and
+the effectiveness of sophisticated feature engineering techniques.
+This work successfully proves that vulnerability exploitation pre-
+diction using public data is both feasible and valuable. We provide a
+transparent, reproducible framework that democratizes vulnerabil-
+ity risk assessment and enables community-driven innovation. The
+research establishes ExploitDB[1] as a viable primary data source
+and sets benchmarks for public-data-based exploitation prediction.
+Although achieving a robust performance requires additional devel-
+opment effort, this work provides a clear foundation for advancing
+transparent cybersecurity prediction systems.
+Keywords: Vulnerability Prediction, EPSS, Public Data, Machine
+Learning, Transparency]
 
 ## 🤝 Contributing
 
@@ -89,12 +122,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- [Your Name] - [Your Institution]
-- [Co-author Name] - [Institution]
+- [Mubaraq M. Fuseini] - [Vrije Universiteit]
+- [Almuthana Almustafa] - [Vrije Universiteit]
+- [Abdalla Abdelhalik] - [Vrije Universiteit]
+
 
 ## 📞 Contact
 
-For questions about this research, please contact: [your.email@institution.edu]
+For questions about this research, please contact: [vu.nl]
 
 ---
 
